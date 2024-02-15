@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a routerLink="/body" routerLinkActive="active" class="nav-link active" aria-current="page">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Directivas Estructurales
+          </a>
+          <ul class="dropdown-menu">
+            <li><a routerLink="/ngiffor" routerLinkActive="active" class="dropdown-item" href="#">NgIfFor</a></li>
+            <li><a routerLink="/ngswitch" routerLinkActive="active" class="dropdown-item" href="#">NgSwitch</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a routerLink="/iffor17" routerLinkActive="active" class="dropdown-item" href="#">NgIfFor17</a></li>
+            <li><a routerLink="/switch17" routerLinkActive="active" class="dropdown-item" href="#">Switch</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Directivas con Atributos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a routerLink="/ngstyle" routerLinkActive="active" class="dropdown-item" href="#">NgStyle</a></li>
+            <li><a routerLink="/ngclass" routerLinkActive="active" class="dropdown-item" href="#">NgClass</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item"><a routerLink="/databinding" routerLinkActive="active" class="nav-link" href="#">Databinding</a></li>
+
+        <li class="nav-item"><a routerLink="/pipes" routerLinkActive="active" class="nav-link" href="#">Pipes</a></li>
+        <li class="nav-item"><a routerLink="/ejercicio" routerLinkActive="active" class="nav-link" href="#">Ejercicio</a></li>
+        <li class="nav-item"><a routerLink="/formreactivo" routerLinkActive="active" class="nav-link" href="#">Formulario Reactivo</a></li>
+        <li class="nav-item"><a routerLink="/padre-hijo" routerLinkActive="active" class="nav-link" href="#">Padre-Hijo</a></li>
+        <li class="nav-item"><a routerLink="/servicios" routerLinkActive="active" class="nav-link" href="#">Servicios-Usuarios</a></li>
+        <li class="nav-item"><a routerLink="/crud" routerLinkActive="active" class="nav-link" href="#">Crud</a></li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
